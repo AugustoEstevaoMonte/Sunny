@@ -1,0 +1,63 @@
+@use  "_colors.scss" as *;
+.navbar__menu
+{
+  background-color:  $soft-blue;
+}
+.navbar-dark .navbar-toggler-icon
+{
+  background-image: url(/img/list.svg);
+}
+.a__brand{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.navbar-dark .navbar-toggler{
+  border-color: transparent !important;
+}
+
+.navbar-nav > li
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.875rem;
+}
+
+.navbar-nav > li > a
+{
+  color: $white !important;
+  font-family:  'Barlow';
+  font-weight: 600;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.button__contact
+{
+  display: block;
+  background-color: $white;
+  border-radius: 30px;
+  padding-left: 0.938rem;
+  padding-right: 0.938rem;
+  &:hover
+  {
+    color: $white;
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+  }
+  &:hover > a
+  {
+    color: $white !important;
+  }
+}
+
+
+.button__contact > a{
+  color: $verydark-blue !important;
+  font-family: 'Fraunces';
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+

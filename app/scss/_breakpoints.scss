@@ -1,0 +1,44 @@
+//575.98px
+@media (max-width: 35.999em) 
+{
+  .img__backgroundorange
+  {
+    background-image: url(/img/mobile-orange.jpg);
+  }
+}
+
+//576px
+@media (min-width: 36em) 
+{
+  .img__backgroundorange
+  {
+    background-image: url(/img/mobile-orange.jpg);
+  }
+}
+
+//768px
+@media (min-width: 48em) 
+{
+
+}
+
+//992px
+@media (min-width: 62em) 
+{
+  .img__backgroundorange
+  {
+    background-image: url(/img/desktop-header.jpg);
+  }
+}
+
+//1200px
+@media (min-width: 75em) 
+{
+
+}
+
+//1400px
+@media (min-width: 87.5em) 
+{
+
+}
